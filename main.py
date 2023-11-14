@@ -52,9 +52,11 @@ def numbers():
         for j in a:
             if 5 <= j <= 10 or -10 <= j <= - 5:
                 res.append(j)
-        print(res)
+        return(res)
+    
+if __name__ == '__main__':
+    print(numbers())
 
 flag()
 pattern()
 chart()
-numbers()
